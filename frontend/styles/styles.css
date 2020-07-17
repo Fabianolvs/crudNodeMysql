@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  padding: 16px;
+  text-align: center;
+}
+
+table {
+  border: 1px solid #e1e1e1;
+  border-collapse: collapse;
+}
+
+th {
+  border-bottom: 1px solid #e1e1e1;
+  background-color: aliceblue;
+}
+
+td,
+th {
+  padding: 16px;
+}
+
+td {
+  font-size: 16px;
+}
+
+.update {
+  border: 0;
+  background: #279f9f;
+  border-radius: 2px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  transition: background 1s;
+}
+
+.deletar {
+  border: 0;
+  background: #ff0000;
+  border-radius: 2px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  transition: background 1s;
+}
+
+.update:hover {
+  background-color: #008080;
+}
+
+.deletar:hover {
+  background: #b22222;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #53868b;
+  color: white;
+  border: 1px solid #e1e1e1;
+}
+
+.title h1 {
+  font-weight: bold;
+}
+
+.add {
+  border: 0;
+  background: #008000;
+  border-radius: 2px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  transition: background 1s;
+}
+
+.add:hover {
+  background: #006b00;
+}
+
+button:focus {
+  outline: none;
+}
